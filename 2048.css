@@ -1,0 +1,124 @@
+body {
+    width: 100wh;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    color: #fff;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #6aee19, #e5401b);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 5s ease infinite;
+    -moz-animation: Gradient 5s ease infinite;
+    animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+}
+#title {
+    color: rgb(180, 120, 120);
+    margin-left: 200px;
+    font-size: 4em;
+}
+
+#tableau {
+    width: 420px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 6px solid #767676;
+    border-radius: 10px;
+    padding: 1px;
+    background-color: #767676;
+    -moz-box-shadow: 5px 5px 12px #aaa;
+    -o-box-shadow: 5px 5px 12px #aaa;
+    -webkit-box-shadow: 5px 5px 12px #aaa;
+}
+
+.row {
+    width: 420px;
+    height: 100px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    border: 0px solid #000000;
+    padding: 2px;
+}
+
+.col, .popup {
+    width: 100px;
+    height: 100px;
+    font-size: 200%;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 1px;
+    text-align: center;
+    vertical-align: top;
+    float: left;
+    border: 6px solid #767676;
+    background-color: #939393;
+	padding-top: 25px;
+}
+.game-container {
+    margin-top: 10px;
+    margin: 0 -35%;
+    position: relative;
+    border-radius: 6px;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+}
+.container {
+    width: 420px;
+    margin: 0 auto;
+}
+
+.popup_container{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	top: 0; 
+	left: 0;
+}
+.popup{
+	float: none;
+	position: relative;
+	border: none;
+	visibility: hidden;
+	width: 88px;
+	height: 88px;
+}
